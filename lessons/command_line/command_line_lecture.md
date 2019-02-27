@@ -192,6 +192,7 @@ ls -lh
 ```
 
 > What changed?
+It simplifies bits into Kilobytes, Megabytes, etc.
 
 If instead copying we just want to change the name of a file, we can do:
 

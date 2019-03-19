@@ -3,7 +3,7 @@
 Exercise 2.4 Using the variable totalwgt_lb, investigate whether first babies are lighter or heavier than others. Compute Cohen’s d to quantify the
 difference between the groups. How does it compare to the difference in
 pregnancy length?
-
+'''
 from __future__ import print_function, division
 
 %matplotlib inline
@@ -39,5 +39,5 @@ def CohenEffectSize(group1, group2):
     return d
     
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
-
+'''
 This results in a Cohen Effect size of -0.088672927072602, which is miniscule and shows no real difference between weight of first babies and the rest, the only real difference to pregnancy length is that it is negative but in this case, it means relatively little.

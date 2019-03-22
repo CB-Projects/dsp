@@ -10,7 +10,8 @@ their household.
 Plot the actual and biased distributions, and compute their means. As a
 starting place, you can use chap03ex.ipynb.
 
-```resp = nsfg.ReadFemResp()
+```
+resp = nsfg.ReadFemResp()
 
 def UnbiasPmf(pmf, label=None):
     new_pmf = pmf.Copy(label=label)
